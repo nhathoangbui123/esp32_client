@@ -49,3 +49,11 @@ menu "Example Configuration"
     endchoice
 
 endmenu
+menu "Setup Wifi"
+    config EXAMPLE_WIFI_SSID
+        string "Wifi SSID"
+        default "NhatHoang"
+    config EXAMPLE_WIFI_PASSWORD
+            string "Wifi Password"
+        default "01217818548"
+endmenu
